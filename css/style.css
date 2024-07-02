@@ -16,16 +16,20 @@ body {
 main#calc {
     width: 400px;
     padding: .5em;
-    background-color: #929292;
+    background-color: #7e7e7e;
     color: #000;
     flex-direction: column; /*itens abaixo um do outro*/
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
 
 }
 
 #calc h3 { 
     font-size: .8em;
     font-weight: 300;
-    color: #4e4e4e;
+    color: #000000;
+    
 }
 
 #operations {
@@ -39,13 +43,12 @@ main#calc {
 }
 
 #previous-operation {
-    
+    font-size: 1.5em;
     font-weight: bold;
     color: #000000;
 }
 
 #current-operation {
-    min-height: 1.6em;
     font-size: 3em;
     font-weight: 700;
 }
@@ -54,6 +57,7 @@ main#calc {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; /*proprção de cada uma das colunas*/
     gap: 3px; /*espaçamento entre cada botão*/
+    
 }
 
 #buttons-container button {
@@ -74,7 +78,22 @@ main#calc {
     border-color: #999;
 }
 
+#buttons-container #plusminus-btn {
+    border-bottom-left-radius: 18%;
+
+}
+
+#buttons-container #c-btn {
+    border-top-left-radius: 18%;
+
+}
+
+#buttons-container #divide-btn {
+    border-top-right-radius: 18%;
+
+}
 #buttons-container #equal-btn {
+    border-bottom-right-radius: 18%;
     background-color: #0d8662;
 }
 
