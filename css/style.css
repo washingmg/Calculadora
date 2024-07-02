@@ -39,10 +39,13 @@ main#calc {
 }
 
 #previous-operation {
-    color: #777;
+    
+    font-weight: bold;
+    color: #000000;
 }
 
 #current-operation {
+    min-height: 1.6em;
     font-size: 3em;
     font-weight: 700;
 }
@@ -72,7 +75,6 @@ main#calc {
 }
 
 #buttons-container #equal-btn {
-    grid-column: span 2; /*ocupa o epaço de duas colunas numa linha*/
     background-color: #0d8662;
 }
 
