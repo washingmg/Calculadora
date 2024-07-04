@@ -1,13 +1,13 @@
 * {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box; /*elemento filho n ultrapssar o elemnto pai*/
+    box-sizing: border-box; 
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: #313131;
-    display: flex; /*alinhar os itens ao centro*/
+    display: flex; 
     align-items: center;
     justify-content: center;
     padding: 3em;
@@ -18,7 +18,7 @@ main#calc {
     padding: .5em;
     background-color: #7e7e7e;
     color: #000;
-    flex-direction: column; /*itens abaixo um do outro*/
+    flex-direction: column; 
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     
@@ -33,13 +33,13 @@ main#calc {
 }
 
 #operations {
-    text-align: right; /*números irão aparecer da direita para a esquerda*/
+    text-align: right; 
 }
 
 #previous-operation, #current-operation {
     min-height: 1.6em;
     padding: 0.2em;
-    overflow-wrap: break-word; /*prever altura dos númerosn, se ajusta*/
+    overflow-wrap: break-word; 
 }
 
 #previous-operation {
@@ -55,8 +55,8 @@ main#calc {
 
 #buttons-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; /*proprção de cada uma das colunas*/
-    gap: 3px; /*espaçamento entre cada botão*/
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 3px;
     
 }
 
