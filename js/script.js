@@ -82,6 +82,7 @@ class Calculator {
   }
 
   // Change values of calculator screen
+
   updateScreen(
     operationValue = null,
     operation = null,
@@ -99,9 +100,10 @@ class Calculator {
       // Add current value to previous
       this.previousOperationText.innerText = `${operationValue} ${operation}`;
       this.currentOperationText.innerText = "";
+    
     }
   }
-
+  
   // Change math operation
   changeOperation(operation) {
     const mathOperations = ["*", "-", "+", "/", "%"];
@@ -129,8 +131,11 @@ class Calculator {
   // Process an operation
   processEqualOperator() {
     let operation = this.previousOperationText.innerText.split(" ")[1];
-
     this.processOperation(operation);
+  
+    this.currentOperationText.innerText = this.previousOperationText.innerText.split(" ")[0];
+    this.previousOperationText.innerText = "";
+
   }
 
   // Change the sign of the current value
@@ -142,7 +147,6 @@ class Calculator {
           : "-" + this.currentOperationText.innerText;
     }
   }
-
 }
 
 // Instance
