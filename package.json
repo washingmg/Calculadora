@@ -1,12 +1,12 @@
 {
   "name": "calculadora",
   "version": "1.0.0",
-  "description": "**Calculadora baseada na do** _Matheus Battisti - Hora de Codar_ **Com alterações no HTML, CSS e JS, além de novas funcionalidades adicionadas.**",
+  "description": "**Esta é uma calculadora simples desenvolvida utilizando HTML, CSS e JavaScript utilizando os conceitos de OO. O projeto tem como objetivo proporcionar uma prática básica de desenvolvimento web, cobrindo a manipulação de elementos DOM, eventos e operações aritméticas.**",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Washington Medeiros",
+  "license": "MIT"
 }
