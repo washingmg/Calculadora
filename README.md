@@ -35,7 +35,10 @@
 **Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.**
 
 # Imagem
+* Exemplo de uso: 7 % 3 = 0.21 <br/>
 ![image](https://github.com/washingmg/Calculadora/assets/144560662/f162078d-b327-4612-8692-ec7385b6bd0b)
+![image](https://github.com/washingmg/Calculadora/assets/144560662/d33ad832-38ce-4338-a4b4-fb46cae6a72e)
+
 
 # Observação:
 **Calculadora feita com base na do _Matheus Battisti - Hora de Codar_, contendo várias alterações de minha preferência.** 
