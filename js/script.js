@@ -147,7 +147,6 @@ class Calculator {
           : "-" + this.currentOperationText.innerText;
     }
   }
-
 }
 
 // Instance
