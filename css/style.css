@@ -21,12 +21,15 @@ main#calc {
     color: #000;
     flex-direction: column; 
     border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
 #calc h3 { 
+    margin-left: 5px;
     font-size: .8em;
-    font-weight: 300;
+    font-weight: bolder;
     color: #000000;
 }
 
