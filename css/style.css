@@ -11,6 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 3em;
+    height: 100vh;
 }
 
 main#calc {
@@ -21,15 +22,12 @@ main#calc {
     flex-direction: column; 
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    
-
 }
 
 #calc h3 { 
     font-size: .8em;
     font-weight: 300;
     color: #000000;
-    
 }
 
 #operations {
@@ -57,7 +55,6 @@ main#calc {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     gap: 3px;
-    
 }
 
 #buttons-container button {
@@ -80,17 +77,14 @@ main#calc {
 
 #buttons-container #plusminus-btn {
     border-bottom-left-radius: 18%;
-
 }
 
 #buttons-container #c-btn {
     border-top-left-radius: 18%;
-
 }
 
 #buttons-container #divide-btn {
     border-top-right-radius: 18%;
-
 }
 #buttons-container #equal-btn {
     border-bottom-right-radius: 18%;
