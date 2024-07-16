@@ -36,8 +36,9 @@
 
 # Imagem
 * Exemplo de uso: 7 % 3 = 0.21 <br/>
-![image](https://github.com/washingmg/Calculadora/assets/144560662/f162078d-b327-4612-8692-ec7385b6bd0b)
-![image](https://github.com/washingmg/Calculadora/assets/144560662/d33ad832-38ce-4338-a4b4-fb46cae6a72e)
+![Captura de tela 2024-07-15 214506](https://github.com/user-attachments/assets/97077091-1078-48c4-ad8c-5f1c0caa7156)
+![Captura de tela 2024-07-15 214420](https://github.com/user-attachments/assets/9e4ee725-8227-4ca6-8869-77c888361f57)
+
 
 
 # Observação:
