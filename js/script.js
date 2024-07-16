@@ -62,7 +62,7 @@ class Calculator {
           return;
         }
         operationValue = previous / current;
-        this.updateScreen(operationValue.toFixed(3), operation, current, previous);
+        this.updateScreen(operationValue, operation, current, previous);
         break;
       case "DEL":
         this.processDelOperator();
