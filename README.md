@@ -41,8 +41,5 @@
 
 
 
-# Observação:
+# Observação
 **Calculadora feita com base na do _Matheus Battisti - Hora de Codar_, contendo várias alterações de minha preferência.** 
-* Repositório da calculadora do Matheus Battisti:
-
-        https://github.com/matheusbattisti/js_calc
